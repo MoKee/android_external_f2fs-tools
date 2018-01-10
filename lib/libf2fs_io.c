@@ -14,16 +14,12 @@
 #include <errno.h>
 #include <unistd.h>
 #include <fcntl.h>
-#ifdef __linux__
 #include <mntent.h>
-#endif
 #include <time.h>
 #include <sys/stat.h>
 #include <sys/mount.h>
 #include <sys/ioctl.h>
-#ifdef __linux__
 #include <linux/hdreg.h>
-#endif
 
 #include <f2fs_fs.h>
 
