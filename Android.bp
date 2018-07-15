@@ -213,6 +213,7 @@ cc_library_static {
         "fsck/main.c",
         "fsck/mkquota.c",
         "fsck/mount.c",
+        "fsck/node.c",
         "fsck/segment.c",
     ],
     cflags: ["-Dmain=fsck_f2fs_main"],
